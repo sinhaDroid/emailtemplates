@@ -7,6 +7,21 @@ table {
     border-collapse: collapse;
 }
 
+@font-face {
+    font-family: 'avenir-regular';
+    src: url('../fonts/avenir-next-regular.ttf');
+}
+
+@font-face {
+    font-family: 'Montserrat-Bold';
+    src: url('../fonts/Montserrat-Bold.ttf');
+}
+
+@font-face {
+    font-family: 'Montserrat-Regular';
+    src: url('../fonts/Montserrat-Regular.ttf');
+}
+
 h1,
 h2,
 h3,
@@ -59,6 +74,9 @@ table {
 
 .ExternalClass {
     width: 100%;
+}
+.kindly-text{
+    font-family:Montserrat-Bold;
 }
 
 p,
@@ -134,7 +152,7 @@ a.mcnButton {
 .mcnTextDiv1 h1 {
     color: #000000;
     /*@editable*/
-    font-family: Helvetica;
+    font-family: avenir-regular;
     /*@editable*/
     font-size: 16px;
     /*@editable*/
@@ -200,7 +218,7 @@ a.mcnButton {
 .mcnTextDiv2 p {
     color: #413463;
     /*@editable*/
-    font-family: Helvetica;
+    font-family: ;
     /*@editable*/
     font-size: 20px;
     /*@editable*/
@@ -218,7 +236,7 @@ a.mcnButton {
 .mcnTextDiv2 ul li {
     color: #834e9a;
     /*@editable*/
-    font-family: Helvetica;
+    font-family: avenir-regular;
     /*@editable*/
     font-size: 15px;
     /*@editable*/
@@ -525,7 +543,7 @@ h4 {
     /*@editable*/
     color: #202020;
     /*@editable*/
-    font-family: Helvetica;
+    font-family: Montserrat-Bold;
     /*@editable*/
     font-size: 16px;
     /*@editable*/
@@ -743,6 +761,8 @@ h4 {
     height: 24px !important;
 }
 
+
+
 @media only screen and (min-width:768px) {
     .templateContainer {
         width: 600px !important;
@@ -900,6 +920,7 @@ h4 {
 
     .tableHead {
         font-size: 16px;
+        font-family:'avenir-regular';
     }
 }
 
